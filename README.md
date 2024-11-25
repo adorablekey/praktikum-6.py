@@ -49,6 +49,8 @@
      print("Daftar Kontak setelah menghapus Dina:")
      for nama, nomor in kontak.items():
      print(f"{nama}: {nomor}")
+     ![Screenshot 2024-11-25 145653](https://github.com/user-attachments/assets/99431df3-c29b-4218-a912-ee9df99ec98b)
+
 
 
 
