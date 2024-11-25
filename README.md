@@ -110,10 +110,10 @@
             return
     print("Data tidak ditemukan.")
 
-def cari_data():
-    nim = input("Masukkan NIM mahasiswa yang dicari: ")
-    for data in data_nilai:
-        if data['nim'] == nim:
+            def cari_data():
+            nim = input("Masukkan NIM mahasiswa yang dicari: ")
+            for data in data_nilai:
+            if data['nim'] == nim:
             print("Data ditemukan:")
             print(f"NIM       : {data['nim']}")
             print(f"Nama      : {data['nama']}")
