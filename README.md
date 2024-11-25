@@ -236,4 +236,5 @@ Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. J
                      break
            else:
                print("Pilihan tidak valid. Silakan coba lagi.")
+Untuk bagian utama dari program, yang menyediakan menu interaktif untuk memilih tindakan yang ingin dilakukan : (L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar
 
