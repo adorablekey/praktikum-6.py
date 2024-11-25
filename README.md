@@ -213,4 +213,5 @@ Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. J
                       print(f"Nilai Akhir : {data['akhir']:.2f}")
                       return
                 print("Data tidak ditemukan.")
+  Program akan menampilkan data mahasiswa (NIM, nama, nilai tugas, UTS, UAS, nilai akhir). Jika NIM tidak ditemukan, maka akan ditampilkan pesan bahwa data tidak ditemukan.
 
