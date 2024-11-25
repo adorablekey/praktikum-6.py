@@ -7,6 +7,7 @@
 kontak = {
 
   "Ari": "081267888",
+  
   "Dina": "087677776"
 }
 
@@ -19,6 +20,7 @@ kontak["Dina"] = "088999776"
 
 
 print("Semua Nama:")
+
 for nama in kontak:
   print(nama)
 
