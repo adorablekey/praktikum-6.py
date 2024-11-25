@@ -101,10 +101,10 @@
             return
     print("Data tidak ditemukan.")
 
-def hapus_data():
-    nim = input("Masukkan NIM mahasiswa yang akan dihapus: ")
-    for i, data in enumerate(data_nilai):
-        if data['nim'] == nim:
+            def hapus_data():
+            nim = input("Masukkan NIM mahasiswa yang akan dihapus: ")
+            for i, data in enumerate(data_nilai):
+            if data['nim'] == nim:
             del data_nilai[i]
             print("Data berhasil dihapus.")
             return
