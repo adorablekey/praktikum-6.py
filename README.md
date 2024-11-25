@@ -152,7 +152,6 @@ Sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa yang terdi
 def lihat_data():
 
 if not data_nilai:
-
         print("Daftar Nilai")
         
         print("=" * 50)
@@ -163,7 +162,7 @@ if not data_nilai:
         print("=" * 50)
         
  else:
-        print("Daftar Nilai")
+       print("Daftar Nilai")
         
         print("=" * 50)
         
