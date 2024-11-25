@@ -166,7 +166,7 @@ Sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa yang terdi
         for idx, data in enumerate(data_nilai, start=1):
             print(f"| {idx:2} | {data['nim']:8} | {data['nama']:10} | {data['tugas']:5} | {data['uts']:3} | {data['uas']:3} | {data['akhir']:5.2f} |")
         print("=" * 50)
-#Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. Jika ada data, maka program akan menampilkan daftar mahasiswa dalam format tabel dengan nomor urut, NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir
+Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. Jika ada data, maka program akan menampilkan daftar mahasiswa dalam format tabel dengan nomor urut, NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir
 
 
 
