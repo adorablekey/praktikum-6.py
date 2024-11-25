@@ -199,6 +199,7 @@ Pengguna dapat memasukkan data baru (nama, nilai tugas, UTS, UAS), dan nilai akh
                   return
           print("data tidak ditemukan.")
 Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. Jika NIM tidak ditemukan, maka akan ditampilkan pesan bahwa data tidak ditemukan.
+
         def cari_data():
              nim = input("Masukkan NIM mahasiswa yang dicari: ")
              for data in data_nilai:
