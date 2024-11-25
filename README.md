@@ -54,12 +54,16 @@
  # hasil program tersebut
  ![Screenshot 2024-11-25 145706](https://github.com/user-attachments/assets/43e3bf46-4782-4ad8-aef1-61de4da0ed6a)
  # input nilai.py
-      ## Program Input Nilai
-data_nilai = []
+         ## Program Input Nilai 
+         
+           data_nilai = []
 
-def lihat_data():
-    if not data_nilai:
-        print("Daftar Nilai")
+           def lihat_data():
+           
+             if not data_nilai:
+             
+               print("Daftar Nilai")
+               
         print("=" * 50)
         print("| NO |    NIM    |    NAMA    | TUGAS | UTS | UAS | AKHIR |")
         print("=" * 50)
