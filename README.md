@@ -78,14 +78,14 @@
             print(f"| {idx:2} | {data['nim']:8} | {data['nama']:10} | {data['tugas']:5} | {data['uts']:3} | {data['uas']:3} | {data['akhir']:5.2f} |")
         print("=" * 50)
 
-def tambah_data():
-    nim = input("NIM         : ")
-    nama = input("Nama        : ")
-    tugas = int(input("Nilai Tugas : "))
-    uts = int(input("Nilai UTS   : "))
-    uas = int(input("Nilai UAS   : "))
-    akhir = (tugas + uts + uas) / 3
-    data_nilai.append({"nim": nim, "nama": nama, "tugas": tugas, "uts": uts, "uas": uas, "akhir": akhir})
+          def tambah_data():
+           nim = input("NIM         : ")
+           nama = input("Nama        : ")
+           tugas = int(input("Nilai Tugas : "))
+           uts = int(input("Nilai UTS   : "))
+           uas = int(input("Nilai UAS   : "))
+           akhir = (tugas + uts + uas) / 3
+           data_nilai.append({"nim": nim, "nama": nama, "tugas": tugas, "uts": uts, "uas": uas, "akhir": akhir})
 
 def ubah_data():
     nim = input("Masukkan NIM mahasiswa yang akan diubah: ")
