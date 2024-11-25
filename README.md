@@ -10,13 +10,13 @@
 ![Screenshot 2024-11-25 144328](https://github.com/user-attachments/assets/ada9d073-584c-464a-a82e-737270e91cab)
 
 
-kontak =   {
+        kontak =   {
       
        
        "Ari": "081267888",
   
       "Dina": "087677776"
-   }
+       }
 
 
      print(f"Kontak Ari: {kontak['Ari']}")
