@@ -215,3 +215,25 @@ Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. J
                 print("Data tidak ditemukan.")
   Program akan menampilkan data mahasiswa (NIM, nama, nilai tugas, UTS, UAS, nilai akhir). Jika NIM tidak ditemukan, maka akan ditampilkan pesan bahwa data tidak ditemukan.
 
+            while True:
+                print("\nProgram Input Nilai")
+                print("===================")
+                print("(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar")
+                pilihan = input("Pilih menu: ").lower()
+
+                if pilihan == 'l':
+                    lihat_data()
+                elif pilihan == 't':
+                     tambah_data()
+                elif pilihan == 'u':
+                      ubah_data()
+                elif pilihan == 'h':
+                     hapus_data()
+                elif pilihan == 'c':
+                     cari_data()
+                elif pilihan == 'k':
+                     print("Keluar dari program.")
+                     break
+           else:
+               print("Pilihan tidak valid. Silakan coba lagi.")
+
