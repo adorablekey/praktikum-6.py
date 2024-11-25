@@ -147,6 +147,7 @@
         print("Pilihan tidak valid. Silakan coba lagi.")
 # penjelasan code
      data_nilai = []
+Sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa yang terdiri dari NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir.    
 
 
 
