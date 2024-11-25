@@ -189,10 +189,11 @@ Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. J
                return
         print("Data tidak ditemukan.")
 Pengguna dapat memasukkan data baru (nama, nilai tugas, UTS, UAS), dan nilai akhir dihitung ulang. Jika NIM tidak ditemukan, akan ditampilkan pesan bahwa data tidak ditemukan.
-      def hapus_data():
-          nim = input("masukkan NIM mahasiswa yang akan dihapus: ")
-          for i, data in enumerate(data_nilai):
-              if data['nim'] == nim:
+
+       def hapus_data():
+           nim = input("masukkan NIM mahasiswa yang akan dihapus: ")
+           for i, data in enumerate(data_nilai):
+               if data['nim'] == nim:
                   del data_nilai[i]
                   print("data berhasil dihapus.")
                   return
