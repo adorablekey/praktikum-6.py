@@ -149,10 +149,13 @@
      data_nilai = []
 Sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa yang terdiri dari NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir.
 
-def lihat_data():
+def lihat_data(): 
+
 if not data_nilai:
         print("Daftar Nilai")
+        
         print("=" * 50)
+        
         print("| NO |    NIM    |    NAMA    | TUGAS | UTS | UAS | AKHIR |")
         print("=" * 50)
         print("|                 TIDAK ADA DATA                   |")
