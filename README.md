@@ -188,6 +188,7 @@ Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. J
                print("Data berhasil diubah.")
                return
         print("Data tidak ditemukan.")
+Pengguna dapat memasukkan data baru (nama, nilai tugas, UTS, UAS), dan nilai akhir dihitung ulang. Jika NIM tidak ditemukan, akan ditampilkan pesan bahwa data tidak ditemukan.
 
 
 
