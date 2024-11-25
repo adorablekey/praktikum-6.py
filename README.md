@@ -198,5 +198,5 @@ Pengguna dapat memasukkan data baru (nama, nilai tugas, UTS, UAS), dan nilai akh
                   print("data berhasil dihapus.")
                   return
           print("data tidak ditemukan.")
-
+Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. Jika NIM tidak ditemukan, maka akan ditampilkan pesan bahwa data tidak ditemukan.
 
