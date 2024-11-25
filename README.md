@@ -168,6 +168,14 @@ Sebuah list kosong yang akan digunakan untuk menyimpan data mahasiswa yang terdi
         print("=" * 50)
 Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. Jika ada data, maka program akan menampilkan daftar mahasiswa dalam format tabel dengan nomor urut, NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir
 
+         def tambah_data():
+         nim = input("NIM         : ")
+          nama = input("Nama        : ")
+         tugas = int(input("Nilai Tugas : "))
+         uts = int(input("Nilai UTS   : "))
+         uas = int(input("Nilai UAS   : "))
+         akhir = (tugas + uts + uas) / 3
+         data_nilai.append({"nim": nim, "nama": nama, "tugas": tugas, "uts": uts, "uas": uas, "akhir": akhir})
 
 
 
