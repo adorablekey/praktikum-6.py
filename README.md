@@ -50,6 +50,8 @@
      for nama, nomor in kontak.items():
      print(f"{nama}: {nomor}")
  # code program tersebut      
+ ![Screenshot 2024-11-25 145653](https://github.com/user-attachments/assets/12922f53-1453-4b56-a6ee-1db444becc64)
+
 
 
 
