@@ -87,10 +87,10 @@
            akhir = (tugas + uts + uas) / 3
            data_nilai.append({"nim": nim, "nama": nama, "tugas": tugas, "uts": uts, "uas": uas, "akhir": akhir})
 
-def ubah_data():
-    nim = input("Masukkan NIM mahasiswa yang akan diubah: ")
-    for data in data_nilai:
-        if data['nim'] == nim:
+           def ubah_data():
+            nim = input("Masukkan NIM mahasiswa yang akan diubah: ")
+            for data in data_nilai:
+            if data['nim'] == nim:
             print("Data ditemukan. Silakan masukkan data baru.")
             data['nama'] = input("Nama        : ")
             data['tugas'] = int(input("Nilai Tugas : "))
