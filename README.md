@@ -175,19 +175,19 @@ Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. J
   tersebut disimpan dalam list data_nilai dalam bentuk dictionary 
 
   
-          def ubah_data():
-           nim = input("Masukkan NIM mahasiswa yang akan diubah: ")
-           for data in data_nilai:
+     def ubah_data():
+        nim = input("Masukkan NIM mahasiswa yang akan diubah: ")
+        for data in data_nilai:
             if data['nim'] == nim:
-            print("Data ditemukan. Silakan masukkan data baru.")
-            data['nama'] = input("Nama        : ")
-            data['tugas'] = int(input("Nilai Tugas : "))
-            data['uts'] = int(input("Nilai UTS   : "))
-            data['uas'] = int(input("Nilai UAS   : "))
-            data['akhir'] = (data['tugas'] + data['uts'] + data['uas']) / 3
-            print("Data berhasil diubah.")
-            return
-            print("Data tidak ditemukan.")
+               print("Data ditemukan. Silakan masukkan data baru.")
+               data['nama'] = input("Nama        : ")
+               data['tugas'] = int(input("Nilai Tugas : "))
+               data['uts'] = int(input("Nilai UTS   : "))
+               data['uas'] = int(input("Nilai UAS   : "))
+               data['akhir'] = (data['tugas'] + data['uts'] + data['uas']) / 3
+               print("Data berhasil diubah.")
+               return
+        print("Data tidak ditemukan.")
 
 
 
