@@ -176,6 +176,8 @@ Jika list kosong (tidak ada data), maka akan ditampilkan pesan TIDAK ADA DATA. J
          uas = int(input("Nilai UAS   : "))
          akhir = (tugas + uts + uas) / 3
          data_nilai.append({"nim": nim, "nama": nama, "tugas": tugas, "uts": uts, "uas": uas, "akhir": akhir})
+  Pengguna diminta untuk memasukkan NIM,nama, dan nilai untuk, UTS dan UAS.setelah itu,nilai akhir dihitung sebagai rata-rata dari ketiga nilai tersebut dan data mahasiswa 
+  tersebut disimpan dalam list data_nilai dalam bentuk dictionary       
 
 
 
