@@ -52,7 +52,8 @@
  # code program tersebut      
  ![Screenshot 2024-11-25 145653](https://github.com/user-attachments/assets/12922f53-1453-4b56-a6ee-1db444becc64)
  # hasil program tersebut
- ![Screenshot 2024-11-25 145706](https://github.com/user-attachments/assets/3cb6df99-a2f5-4acb-8b7f-d12da600e307)
+ ![Screenshot 2024-11-25 145706](https://github.com/user-attachments/assets/43e3bf46-4782-4ad8-aef1-61de4da0ed6a)
+
 
 
 
