@@ -146,6 +146,7 @@
     else:
         print("Pilihan tidak valid. Silakan coba lagi.")
 # penjelasan code
+     data_nilai = []
 
 
 
