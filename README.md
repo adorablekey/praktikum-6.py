@@ -240,4 +240,6 @@ Untuk bagian utama dari program, yang menyediakan menu interaktif untuk memilih 
 # code program tersebut
   ![image](https://github.com/user-attachments/assets/640abc5b-bcfb-4701-a419-f48c42fc87a6)
 # hasil program tersebut
+  ![Screenshot 2024-11-19 073453](https://github.com/user-attachments/assets/521db3bd-c93f-4788-bb3c-a52e00f32839)
+
 
