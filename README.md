@@ -199,4 +199,17 @@ Pengguna dapat memasukkan data baru (nama, nilai tugas, UTS, UAS), dan nilai akh
                   return
           print("data tidak ditemukan.")
 Jika NIM ditemukan, data mahasiswa tersebut akan dihapus dari list data_nilai. Jika NIM tidak ditemukan, maka akan ditampilkan pesan bahwa data tidak ditemukan.
+        def cari_data():
+             nim = input("Masukkan NIM mahasiswa yang dicari: ")
+             for data in data_nilai:
+                 if data['nim'] == nim:
+                     print("Data ditemukan:")
+                     print(f"NIM       : {data['nim']}")
+                      print(f"Nama      : {data['nama']}")
+                      print(f"Nilai Tugas : {data['tugas']}")
+                      print(f"Nilai UTS   : {data['uts']}")
+                      print(f"Nilai UAS   : {data['uas']}")
+                      print(f"Nilai Akhir : {data['akhir']:.2f}")
+                      return
+                print("Data tidak ditemukan.")
 
