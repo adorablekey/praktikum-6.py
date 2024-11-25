@@ -242,5 +242,7 @@ Untuk bagian utama dari program, yang menyediakan menu interaktif untuk memilih 
 # hasil program tersebut
   ![Screenshot 2024-11-19 073453](https://github.com/user-attachments/assets/521db3bd-c93f-4788-bb3c-a52e00f32839)
 # flowchart
+  ![image](https://github.com/user-attachments/assets/318b59e7-32f1-4bfe-a7dc-ba7d7ee31736)
+
 
 
