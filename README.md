@@ -10,7 +10,9 @@
 ![Screenshot 2024-11-25 144328](https://github.com/user-attachments/assets/ada9d073-584c-464a-a82e-737270e91cab)
 
 
-kontak = {
+kontak =   {
+      
+       
        "Ari": "081267888",
   
       "Dina": "087677776"
@@ -34,19 +36,19 @@ kontak = {
      print(nama)
 
 
-print("Semua Nomor:")
-for nomor in kontak.values():
-  print(nomor)
+     print("Semua Nomor:")
+     for nomor in kontak.values():
+     print(nomor)
 
-print("Daftar Nama dan Nomor:")
-for nama, nomor in kontak.items():
-  print(f"{nama}: {nomor}")
+     print("Daftar Nama dan Nomor:")
+     for nama, nomor in kontak.items():
+     print(f"{nama}: {nomor}")
 
-del kontak["Dina"]
+     del kontak["Dina"]
 
-print("Daftar Kontak setelah menghapus Dina:")
-for nama, nomor in kontak.items():
-  print(f"{nama}: {nomor}")
+     print("Daftar Kontak setelah menghapus Dina:")
+     for nama, nomor in kontak.items():
+     print(f"{nama}: {nomor}")
 
 
 
