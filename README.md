@@ -124,7 +124,7 @@
             return
     print("Data tidak ditemukan.")
 
-           while True:
+    while True:
     print("\nProgram Input Nilai")
     print("===================")
     print("(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar")
